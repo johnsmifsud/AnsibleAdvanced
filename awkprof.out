@@ -1,0 +1,8 @@
+	# gawk profile, created Thu Dec  2 18:27:22 2021
+
+	# Rule(s)
+
+	{
+		print $1
+	}
+

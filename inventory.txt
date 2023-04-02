@@ -1,0 +1,5 @@
+[db_and_web_servers]
+ansibleD00
+ansibleD01
+ansibleD02
+#ansibleS01
