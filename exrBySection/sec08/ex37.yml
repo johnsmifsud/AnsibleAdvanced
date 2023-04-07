@@ -1,0 +1,13 @@
+
+
+#playbook.yml
+
+-
+  name: Generate random file name
+  hosts: localhost
+  tasks:
+  - name: Create file
+    file:
+      path: /tmp/random_file_"{{ 1000 | random }}"
+      state: touch
+
